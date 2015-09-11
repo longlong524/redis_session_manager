@@ -16,6 +16,12 @@ import java.io.IOException;
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 
+/**
+ * The redis session
+ * @author xianglong
+ * @created 2015年9月11日 下午3:02:13
+ * @version 1.0
+ */
 public class RedisSession extends StandardSession {
 
 	private static final Log log = LogFactory.getLog(RedisSession.class);

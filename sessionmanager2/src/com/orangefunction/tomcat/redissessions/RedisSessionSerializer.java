@@ -13,6 +13,12 @@ import com.esotericsoftware.kryo.Serializer;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
 
+/**
+ * RedisSessionSerializer, use kryo library 
+ * @author xianglong
+ * @created 2015年9月11日 下午3:04:30
+ * @version 1.0
+ */
 public class RedisSessionSerializer extends Serializer<RedisSession> {
 
 	@Override

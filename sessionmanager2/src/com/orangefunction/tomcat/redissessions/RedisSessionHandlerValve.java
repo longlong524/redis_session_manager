@@ -8,6 +8,12 @@ import org.apache.catalina.connector.Request;
 import org.apache.catalina.connector.Response;
 import org.apache.catalina.valves.ValveBase;
 
+/**
+ * The redis session RedisSessionHandlerValve, used to decide wether to serialize the session 
+ * @author xianglong
+ * @created 2015年9月11日 下午3:02:13
+ * @version 1.0
+ */
 public class RedisSessionHandlerValve extends ValveBase {
 	private RedisSessionManager manager;
 

@@ -30,6 +30,12 @@ import com.esotericsoftware.kryo.Kryo.DefaultInstantiatorStrategy;
 import com.esotericsoftware.kryo.io.Input;
 import com.esotericsoftware.kryo.io.Output;
 
+/**
+ * redis session manager, used to manage session
+ * @author xianglong
+ * @created 2015年9月11日 下午3:03:55
+ * @version 1.0
+ */
 public class RedisSessionManager extends ManagerBase implements Lifecycle {
 
 	private static final int MAXBUFFER_LENGTH = 1024 * 200;
